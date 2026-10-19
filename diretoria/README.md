@@ -34,3 +34,5 @@ integrada ao jogo principal.
 - Confirmar a nomenclatura da moeda: o saldo atual usa GaloCoins e o card usa bolas.
 - Custos provisórios dos upgrades de Treinador: Prancheta Tática (100 bolas), Apito turbo (200), Voz de comando (300) e Leitura de jogo (400).
 - Confirmar com o colega os efeitos de Apito turbo, Voz de comando e Leitura de jogo, incluindo as regras de bola de ouro e moedas por gol.
+- Custos provisórios dos upgrades de Jogadores: Velocidade (500 bolas), Passe (600), Finalização (700) e Precisão (800).
+- Confirmar com o colega os efeitos dos upgrades de Jogadores: velocidade da bola, geração automática, moedas por gol e chance de gol especial.
