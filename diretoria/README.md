@@ -36,3 +36,8 @@ integrada ao jogo principal.
 - Confirmar com o colega os efeitos de Apito turbo, Voz de comando e Leitura de jogo, incluindo as regras de bola de ouro e moedas por gol.
 - Custos provisórios dos upgrades de Jogadores: Velocidade (500 bolas), Passe (600), Finalização (700) e Precisão (800).
 - Confirmar com o colega os efeitos dos upgrades de Jogadores: velocidade da bola, geração automática, moedas por gol e chance de gol especial.
+- Custos provisórios de Gramado: profissional (900 bolas), premium (1000) e iluminação noturna (1100).
+- Gramado simples definido como adquirido no início para esta versão de teste.
+- Melhorias de Gramado tratadas como compras únicas, sem níveis.
+- Iluminação noturna exige Gramado premium; o desbloqueio será programado na etapa de JavaScript.
+- Confirmar com o colega os bônus de moedas e a aplicação dos efeitos visuais do Gramado.
