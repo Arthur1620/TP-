@@ -41,3 +41,8 @@ integrada ao jogo principal.
 - Melhorias de Gramado tratadas como compras únicas, sem níveis.
 - Iluminação noturna exige Gramado premium; o desbloqueio será programado na etapa de JavaScript.
 - Confirmar com o colega os bônus de moedas e a aplicação dos efeitos visuais do Gramado.
+- Custos provisórios de Estádio: básico (1200 bolas), grande (1300) e lotado (1400).
+- Campo pequeno definido como adquirido no início para esta versão de teste.
+- Melhorias de Estádio tratadas como compras únicas, sem níveis.
+- Estádio lotado exige Estádio grande; o desbloqueio será programado na etapa de JavaScript.
+- Confirmar com o colega os bônus de moedas e os efeitos visuais das melhorias de Estádio.
