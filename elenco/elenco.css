@@ -38,3 +38,17 @@ body {
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 16px;
 }
+
+.cartao {
+  background: #171717;
+  border: 1px solid #2A2A2A;
+  border-radius: 16px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.cartao.lenda {
+  border: 2px solid #F5C542;
+}
