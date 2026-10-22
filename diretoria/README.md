@@ -46,3 +46,9 @@ integrada ao jogo principal.
 - Melhorias de Estádio tratadas como compras únicas, sem níveis.
 - Estádio lotado exige Estádio grande; o desbloqueio será programado na etapa de JavaScript.
 - Confirmar com o colega os bônus de moedas e os efeitos visuais das melhorias de Estádio.
+- Custos provisórios de Torcida: Torcida maior (1500 bolas), Bandeiras e faixas (1600) e Sinalizadores (1700).
+- Poucas pessoas definida como torcida inicial nesta versão de teste.
+- Torcida maior e Sinalizadores tratados como compras únicas; Bandeiras e faixas possui níveis.
+- Bônus de moedas de Torcida são provisórios e precisam ser confirmados com o colega.
+- Sinalizadores exige 500 gols; a verificação dependerá do sistema do colega e será programada na etapa de JavaScript.
+- Confirmar a aplicação dos efeitos visuais das melhorias de Torcida na integração.
