@@ -52,3 +52,24 @@ body {
 .cartao.lenda {
   border: 2px solid #F5C542;
 }
+
+.cartao-topo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cartao-titulo {
+  font-family: 'Anton', sans-serif;
+  font-size: 22px;
+}
+
+.etiqueta {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: .1em;
+  padding: 3px 7px;
+  border-radius: 6px;
+  background: #2A2A2A;
+}
