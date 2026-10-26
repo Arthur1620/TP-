@@ -60,3 +60,5 @@ integrada ao jogo principal.
 - Todos os valores dos atributos são provisórios, na escala de 0 a 100.
 - Confirmar os requisitos: Lateral exige Estádio grande; Zagueiro artilheiro exige 50 gols de cabeça; Craque exige "Casa cheia", cuja regra ainda será definida.
 - Contratações, atributos e desbloqueios ainda não estão conectados ao sistema do colega.
+- Cores e fontes iniciais aplicadas com CSS simples, sem variáveis.
+- A fonte Impact é uma aproximação temporária; confirmar a fonte original do protótipo para reproduzir o visual fielmente.
