@@ -52,3 +52,6 @@ integrada ao jogo principal.
 - Bônus de moedas de Torcida são provisórios e precisam ser confirmados com o colega.
 - Sinalizadores exige 500 gols; a verificação dependerá do sistema do colega e será programada na etapa de JavaScript.
 - Confirmar a aplicação dos efeitos visuais das melhorias de Torcida na integração.
+- Volante (camisa 5, raridade Comum) definido como jogador inicial, já no elenco, nesta versão de teste.
+- Confirmar com o colega o elenco inicial e como os jogadores contratados participarão da jogada automática.
+- O estado "No elenco" ainda é apenas visual, sem conexão com o sistema do jogo.
