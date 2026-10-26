@@ -55,3 +55,8 @@ integrada ao jogo principal.
 - Volante (camisa 5, raridade Comum) definido como jogador inicial, já no elenco, nesta versão de teste.
 - Confirmar com o colega o elenco inicial e como os jogadores contratados participarão da jogada automática.
 - O estado "No elenco" ainda é apenas visual, sem conexão com o sistema do jogo.
+- Camisa 9 definido como jogador inicial, junto do Volante, nesta versão de teste.
+- Custos provisórios das contratações: Ponta (1800 bolas), Lateral (1900), Zagueiro artilheiro (2000) e Craque (2100).
+- Todos os valores dos atributos são provisórios, na escala de 0 a 100.
+- Confirmar os requisitos: Lateral exige Estádio grande; Zagueiro artilheiro exige 50 gols de cabeça; Craque exige "Casa cheia", cuja regra ainda será definida.
+- Contratações, atributos e desbloqueios ainda não estão conectados ao sistema do colega.
