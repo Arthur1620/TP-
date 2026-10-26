@@ -10,13 +10,31 @@
 
 <body>
     <header>
-        <h1>Diretoria do Galo</h1>
+        <div class="titulo-diretoria">
+            <p>Menu de upgrades</p>
+            <h1>Diretoria do Clube</h1>
+        </div>
+        <div class="controles-diretoria">
+            <div class="legenda-estados">
+                <span class="legenda-disponivel">Disponível</span>
+                <span class="legenda-sem-moedas">Sem moedas</span>
+                <span class="legenda-comprado">Comprado</span>
+                <span class="legenda-bloqueado">Bloqueado</span>
+            </div>
+            <div class="quantidade-compra">
+                <button type="button" class="quantidade-ativa">+1</button>
+                <button type="button">+10</button>
+                <button type="button">MÁX</button>
+            </div>
+        </div>
+        <section id="saldo">
+            <p aria-label="Saldo de GaloCoins">
+                <span aria-hidden="true">🪙</span>
+                <span id="galo-coins">0</span>
+            </p>
+        </section>
     </header>
     <main>
-        <section id="saldo">
-            <h2>Saldo do clube</h2>
-            <p>GaloCoins: <span id="galo-coins">0</span></p>
-        </section>
         <section id="melhorias">
             <h2>Melhorias da Diretoria</h2>
             <div class="categorias-upgrades">

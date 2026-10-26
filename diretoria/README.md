@@ -62,3 +62,6 @@ integrada ao jogo principal.
 - Contratações, atributos e desbloqueios ainda não estão conectados ao sistema do colega.
 - Cores e fontes iniciais aplicadas com CSS simples, sem variáveis.
 - A fonte Impact é uma aproximação temporária; confirmar a fonte original do protótipo para reproduzir o visual fielmente.
+- Cabeçalho com legenda de estados, controles +1/+10/MÁX e saldo.
+- Controles de quantidade ainda são apenas visuais; programar sua seleção e aplicação às compras na etapa de JavaScript.
+- Emoji da moeda é provisório e deverá ser substituído por um ícone fiel ao protótipo.
