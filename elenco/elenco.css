@@ -73,3 +73,36 @@ body {
   border-radius: 6px;
   background: #2A2A2A;
 }
+
+.etiqueta.branco {
+  background: #F5F5F5;
+  color: #0D0D0D;
+}
+
+.etiqueta.ouro {
+  background: #F5C542;
+  color: #0D0D0D;
+}
+
+.descricao {
+  font-size: 14px;
+  line-height: 1.45;
+  color: #D4D4D4;
+}
+
+.nota {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  color: #A3A3A3;
+}
+
+.palco {
+  height: 250px;
+  border-radius: 12px;
+  display: grid;
+  place-items: end center;
+  padding-bottom: 10px;
+  position: relative;
+  overflow: hidden;
+}
