@@ -65,3 +65,8 @@ integrada ao jogo principal.
 - Cabeçalho com legenda de estados, controles +1/+10/MÁX e saldo.
 - Controles de quantidade ainda são apenas visuais; programar sua seleção e aplicação às compras na etapa de JavaScript.
 - Emoji da moeda é provisório e deverá ser substituído por um ícone fiel ao protótipo.
+- Cards de upgrades com cabeçalhos listrados, etiquetas de nível e rodapés com categoria e preço.
+- Toda a área dos cards disponíveis funciona como botão; as compras serão programadas na etapa de JavaScript.
+- Cards bloqueados usam botões desativados, e cards já comprados não possuem botão de compra.
+- Texto de Bandeiras e faixas ajustado para +10%, conforme o protótipo; confirmar o efeito na integração.
+- Capacidades dos estádios e indicadores de festa são apenas informativos nesta etapa.
