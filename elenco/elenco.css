@@ -150,3 +150,73 @@ body {
   border-radius: 50%;
   background: rgba(245, 197, 66, .12);
 }
+
+.barba-svg-lenda {
+  position: relative;
+}
+
+.elenco {
+  flex: 0 0 500px;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.elenco .cartao {
+  border-radius: 14px;
+  padding: 12px;
+  gap: 6px;
+}
+
+.elenco .miniatura {
+  height: 120px;
+  border-radius: 10px;
+  display: grid;
+  place-items: center;
+}
+
+.miniatura-campo {
+  background: #2F7D3B;
+}
+
+.miniatura-arquibancada {
+  background: #2A2A2A;
+}
+
+.elenco .nome {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 17px;
+  font-weight: 800;
+  line-height: 1.1;
+}
+
+.elenco .texto {
+  font-size: 12px;
+  line-height: 1.35;
+  color: #A3A3A3;
+}
+
+/* Telas menores */
+@media (max-width: 1100px) {
+  .elenco {
+    flex: 1 1 100%;
+  }
+}
+
+@media (max-width: 760px) {
+  .pagina {
+    padding: 24px 16px;
+  }
+
+  .titulo {
+    font-size: 36px;
+  }
+
+  .barba {
+    grid-template-columns: 1fr;
+  }
+
+  .elenco {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
