@@ -75,3 +75,8 @@ integrada ao jogo principal.
 - Imagens armazenadas em diretoria/imagens/.
 - Números das camisas mantidos conforme os cards do protótipo; não representam necessariamente os números reais dos atletas.
 - Preços, atributos, elenco inicial e requisitos continuam provisórios para integração.
+- Estados visuais disponível, comprado, bloqueado e sem moedas estilizados.
+- Estados sem moedas testados temporariamente na Prancheta Tática e no Ponta, depois restaurados para disponível.
+- Classes de estado ainda são definidas manualmente no HTML.
+- Na etapa de JavaScript, atualizar as classes e o atributo disabled conforme saldo, requisitos e compras.
+- Cards disponíveis permanecem habilitados para teste visual, mesmo com saldo exibido em zero.

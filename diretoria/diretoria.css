@@ -458,10 +458,6 @@ h2 {
     margin-bottom: 0;
 }
 
-#ponta {
-    border-color: #f4c542;
-}
-
 #craque .camisa-jogador {
     background: repeating-linear-gradient(to right,
             #f4c542 0px,
@@ -498,4 +494,64 @@ h2 {
     height: 78px;
     object-fit: contain;
     object-position: bottom;
+}
+
+.upgrade.comprado {
+    background-color: #f4c542;
+    border-color: #c49a28;
+    color: #121212;
+}
+
+.upgrade.comprado > p:first-of-type,
+.upgrade.comprado .tipo-upgrade {
+    color: #665018;
+}
+
+.upgrade.comprado .estado-upgrade {
+    color: #121212;
+}
+
+.upgrade.bloqueado {
+    opacity: 0.4;
+    border-style: dashed;
+    border-color: #666666;
+}
+
+.upgrade.disponivel {
+    border-color: #f5f5f5;
+}
+
+.upgrade.disponivel:hover {
+    border-color: #f4c542;
+}
+
+.upgrade.sem-moedas {
+    border-color: #444444;
+}
+
+.upgrade.sem-moedas .custo-upgrade {
+    color: #777777;
+}
+
+.jogador.bloqueado {
+    opacity: 0.4;
+    border-style: dashed;
+    border-color: #666666;
+}
+
+.jogador.disponivel {
+    border-color: #f4c542;
+}
+
+.jogador.disponivel .contratar-jogador:hover {
+    background-color: #ffda65;
+}
+
+.jogador.sem-moedas {
+    border-color: #444444;
+}
+
+.jogador.sem-moedas .contratar-jogador {
+    background-color: #292929;
+    color: #777777;
 }

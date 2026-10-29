@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Galo clicker - Diretoria</title>
+    <title>Galo Clicker - Diretoria</title>
     <link rel="stylesheet" href="diretoria.css">
 </head>
 
@@ -41,14 +41,13 @@
     <main>
         <section id="melhorias">
             <div class="categorias-upgrades">
-
                 <section class="categoria" id="treinador">
                     <div class="cabecalho-categoria">
                         <h3>Treinador</h3>
                         <p>Gera bolas · clique</p>
                     </div>
 
-                    <article class="upgrade" id="prancheta-tatica">
+                    <article class="upgrade disponivel" id="prancheta-tatica">
                         <h4>Prancheta Tática</h4>
                         <p>+1 bola por clique</p>
                         <p class="etiqueta-upgrade">
@@ -62,7 +61,7 @@
                         </div>
                     </article>
 
-                    <article class="upgrade" id="apito-turbo">
+                    <article class="upgrade disponivel" id="apito-turbo">
                         <h4>Apito turbo</h4>
                         <p>Barba gera bolas 10% mais rápido</p>
                         <p class="etiqueta-upgrade">
@@ -71,11 +70,12 @@
                         <div class="rodape-upgrade">
                             <span class="tipo-upgrade">Velocidade</span>
                             <span class="custo-upgrade">200</span>
-                            <button class="comprar-upgrade" type="button" aria-label="Comprar Apito turbo"></button>
+                            <button class="comprar-upgrade" type="button"
+                                aria-label="Comprar Apito turbo"></button>
                         </div>
                     </article>
 
-                    <article class="upgrade" id="voz-de-comando">
+                    <article class="upgrade disponivel" id="voz-de-comando">
                         <h4>Voz de comando</h4>
                         <p>+2% de chance de bola de ouro</p>
                         <p class="etiqueta-upgrade">
@@ -84,11 +84,12 @@
                         <div class="rodape-upgrade">
                             <span class="tipo-upgrade">Especial</span>
                             <span class="custo-upgrade">300</span>
-                            <button class="comprar-upgrade" type="button" aria-label="Comprar Voz de comando"></button>
+                            <button class="comprar-upgrade" type="button"
+                                aria-label="Comprar Voz de comando"></button>
                         </div>
                     </article>
 
-                    <article class="upgrade" id="leitura-de-jogo">
+                    <article class="upgrade disponivel" id="leitura-de-jogo">
                         <h4>Leitura de jogo</h4>
                         <p>+10% de moedas por gol</p>
                         <p class="etiqueta-upgrade">
@@ -97,7 +98,8 @@
                         <div class="rodape-upgrade">
                             <span class="tipo-upgrade">Bônus</span>
                             <span class="custo-upgrade">400</span>
-                            <button class="comprar-upgrade" type="button" aria-label="Comprar Leitura de jogo"></button>
+                            <button class="comprar-upgrade" type="button"
+                                aria-label="Comprar Leitura de jogo"></button>
                         </div>
                     </article>
                 </section>
@@ -108,7 +110,7 @@
                         <p>Automação · finalização</p>
                     </div>
 
-                    <article class="upgrade" id="velocidade">
+                    <article class="upgrade disponivel" id="velocidade">
                         <h4>Velocidade</h4>
                         <p>Bola atravessa o campo 8% mais rápido</p>
                         <p class="etiqueta-upgrade">
@@ -117,11 +119,12 @@
                         <div class="rodape-upgrade">
                             <span class="tipo-upgrade">Automação</span>
                             <span class="custo-upgrade">500</span>
-                            <button class="comprar-upgrade" type="button" aria-label="Comprar Velocidade"></button>
+                            <button class="comprar-upgrade" type="button"
+                                aria-label="Comprar Velocidade"></button>
                         </div>
                     </article>
 
-                    <article class="upgrade" id="passe">
+                    <article class="upgrade disponivel" id="passe">
                         <h4>Passe</h4>
                         <p>+0,3 bola automática por segundo</p>
                         <p class="etiqueta-upgrade">
@@ -130,11 +133,12 @@
                         <div class="rodape-upgrade">
                             <span class="tipo-upgrade">Automação</span>
                             <span class="custo-upgrade">600</span>
-                            <button class="comprar-upgrade" type="button" aria-label="Comprar Passe"></button>
+                            <button class="comprar-upgrade" type="button"
+                                aria-label="Comprar Passe"></button>
                         </div>
                     </article>
 
-                    <article class="upgrade" id="finalizacao">
+                    <article class="upgrade disponivel" id="finalizacao">
                         <h4>Finalização</h4>
                         <p>+2 moedas base por gol</p>
                         <p class="etiqueta-upgrade">
@@ -143,11 +147,12 @@
                         <div class="rodape-upgrade">
                             <span class="tipo-upgrade">Valor</span>
                             <span class="custo-upgrade">700</span>
-                            <button class="comprar-upgrade" type="button" aria-label="Comprar Finalização"></button>
+                            <button class="comprar-upgrade" type="button"
+                                aria-label="Comprar Finalização"></button>
                         </div>
                     </article>
 
-                    <article class="upgrade" id="precisao">
+                    <article class="upgrade disponivel" id="precisao">
                         <h4>Precisão</h4>
                         <p>+3% de chance de gol especial</p>
                         <p class="etiqueta-upgrade">
@@ -156,7 +161,8 @@
                         <div class="rodape-upgrade">
                             <span class="tipo-upgrade">Raridade</span>
                             <span class="custo-upgrade">800</span>
-                            <button class="comprar-upgrade" type="button" aria-label="Comprar Precisão"></button>
+                            <button class="comprar-upgrade" type="button"
+                                aria-label="Comprar Precisão"></button>
                         </div>
                     </article>
                 </section>
@@ -167,18 +173,20 @@
                         <p>Muda o visual do campo</p>
                     </div>
 
-                    <article class="upgrade" id="gramado-simples">
+                    <article class="upgrade comprado" id="gramado-simples">
                         <h4>Gramado simples</h4>
                         <p>Campo de terra e grama rala</p>
+                        <p class="etiqueta-upgrade">FEITO</p>
                         <div class="rodape-upgrade">
                             <span class="tipo-upgrade">Início</span>
                             <span class="estado-upgrade">Comprado</span>
                         </div>
                     </article>
 
-                    <article class="upgrade" id="gramado-profissional">
+                    <article class="upgrade disponivel" id="gramado-profissional">
                         <h4>Gramado profissional</h4>
                         <p>Faixas cortadas · +15% de moedas</p>
+                        <p class="etiqueta-upgrade">NOVO</p>
                         <div class="rodape-upgrade">
                             <span class="tipo-upgrade">Visual</span>
                             <span class="custo-upgrade">900</span>
@@ -187,24 +195,28 @@
                         </div>
                     </article>
 
-                    <article class="upgrade" id="gramado-premium">
+                    <article class="upgrade disponivel" id="gramado-premium">
                         <h4>Gramado premium</h4>
                         <p>Corte xadrez e brilho · +25% de moedas</p>
+                        <p class="etiqueta-upgrade">NOVO</p>
                         <div class="rodape-upgrade">
                             <span class="tipo-upgrade">Visual</span>
                             <span class="custo-upgrade">1000</span>
-                            <button class="comprar-upgrade" type="button" aria-label="Comprar Gramado premium"></button>
+                            <button class="comprar-upgrade" type="button"
+                                aria-label="Comprar Gramado premium"></button>
                         </div>
                     </article>
 
-                    <article class="upgrade" id="iluminacao-noturna">
+                    <article class="upgrade bloqueado" id="iluminacao-noturna">
                         <h4>Iluminação noturna</h4>
                         <p>Refletores e jogos à noite · +20% de moedas</p>
+                        <p class="etiqueta-upgrade">BLOQ.</p>
                         <div class="rodape-upgrade">
                             <span class="tipo-upgrade">Requer: Gramado premium</span>
                             <span class="custo-upgrade">1100</span>
                             <button class="comprar-upgrade" type="button"
-                                aria-label="Iluminação noturna bloqueada: requer Gramado premium" disabled></button>
+                                aria-label="Iluminação noturna bloqueada: requer Gramado premium"
+                                disabled></button>
                         </div>
                     </article>
                 </section>
@@ -215,43 +227,50 @@
                         <p>Capacidade · potencial</p>
                     </div>
 
-                    <article class="upgrade" id="campo-pequeno">
+                    <article class="upgrade comprado" id="campo-pequeno">
                         <h4>Campo pequeno</h4>
                         <p>Arquibancada de madeira</p>
+                        <p class="etiqueta-upgrade">FEITO</p>
                         <div class="rodape-upgrade">
                             <span class="tipo-upgrade">200 lugares</span>
                             <span class="estado-upgrade">Comprado</span>
                         </div>
                     </article>
 
-                    <article class="upgrade" id="estadio-basico">
+                    <article class="upgrade disponivel" id="estadio-basico">
                         <h4>Estádio básico</h4>
                         <p>Concreto e placas · +25% de moedas</p>
+                        <p class="etiqueta-upgrade">NOVO</p>
                         <div class="rodape-upgrade">
                             <span class="tipo-upgrade">8 mil lugares</span>
                             <span class="custo-upgrade">1200</span>
-                            <button class="comprar-upgrade" type="button" aria-label="Comprar Estádio básico"></button>
+                            <button class="comprar-upgrade" type="button"
+                                aria-label="Comprar Estádio básico"></button>
                         </div>
                     </article>
 
-                    <article class="upgrade" id="estadio-grande">
+                    <article class="upgrade disponivel" id="estadio-grande">
                         <h4>Estádio grande</h4>
                         <p>Mais arquibancadas e cobertura · +50% de moedas</p>
+                        <p class="etiqueta-upgrade">NOVO</p>
                         <div class="rodape-upgrade">
                             <span class="tipo-upgrade">35 mil lugares</span>
                             <span class="custo-upgrade">1300</span>
-                            <button class="comprar-upgrade" type="button" aria-label="Comprar Estádio grande"></button>
+                            <button class="comprar-upgrade" type="button"
+                                aria-label="Comprar Estádio grande"></button>
                         </div>
                     </article>
 
-                    <article class="upgrade" id="estadio-lotado">
+                    <article class="upgrade bloqueado" id="estadio-lotado">
                         <h4>Estádio lotado</h4>
                         <p>Arquibancadas cheias e comemoração</p>
+                        <p class="etiqueta-upgrade">BLOQ.</p>
                         <div class="rodape-upgrade">
                             <span class="tipo-upgrade">Requer: Estádio grande</span>
                             <span class="custo-upgrade">1400</span>
                             <button class="comprar-upgrade" type="button"
-                                aria-label="Estádio lotado bloqueado: requer Estádio grande" disabled></button>
+                                aria-label="Estádio lotado bloqueado: requer Estádio grande"
+                                disabled></button>
                         </div>
                     </article>
                 </section>
@@ -262,26 +281,29 @@
                         <p>Energia · comemoração</p>
                     </div>
 
-                    <article class="upgrade" id="poucas-pessoas">
+                    <article class="upgrade comprado" id="poucas-pessoas">
                         <h4>Poucas pessoas</h4>
                         <p>Os fiéis de sempre</p>
+                        <p class="etiqueta-upgrade">FEITO</p>
                         <div class="rodape-upgrade">
                             <span class="tipo-upgrade">Festa ×1,0</span>
                             <span class="estado-upgrade">Comprado</span>
                         </div>
                     </article>
 
-                    <article class="upgrade" id="torcida-maior">
+                    <article class="upgrade disponivel" id="torcida-maior">
                         <h4>Torcida maior</h4>
                         <p>Mais gente a cada gol · +10% de moedas</p>
+                        <p class="etiqueta-upgrade">NOVO</p>
                         <div class="rodape-upgrade">
                             <span class="tipo-upgrade">Festa ×1,1</span>
                             <span class="custo-upgrade">1500</span>
-                            <button class="comprar-upgrade" type="button" aria-label="Comprar Torcida maior"></button>
+                            <button class="comprar-upgrade" type="button"
+                                aria-label="Comprar Torcida maior"></button>
                         </div>
                     </article>
 
-                    <article class="upgrade" id="bandeiras-e-faixas">
+                    <article class="upgrade disponivel" id="bandeiras-e-faixas">
                         <h4>Bandeiras e faixas</h4>
                         <p>Bandeiras tremulando · +10% de moedas</p>
                         <p class="etiqueta-upgrade">
@@ -295,18 +317,19 @@
                         </div>
                     </article>
 
-                    <article class="upgrade" id="sinalizadores">
+                    <article class="upgrade bloqueado" id="sinalizadores">
                         <h4>Sinalizadores</h4>
                         <p>Luzes e fumaça na festa · +25% de moedas</p>
+                        <p class="etiqueta-upgrade">BLOQ.</p>
                         <div class="rodape-upgrade">
                             <span class="tipo-upgrade">Requer: 500 gols</span>
                             <span class="custo-upgrade">1700</span>
                             <button class="comprar-upgrade" type="button"
-                                aria-label="Sinalizadores bloqueados: requer 500 gols" disabled></button>
+                                aria-label="Sinalizadores bloqueados: requer 500 gols"
+                                disabled></button>
                         </div>
                     </article>
                 </section>
-
             </div>
         </section>
 
@@ -317,15 +340,19 @@
             </div>
 
             <div class="lista-contratacoes">
-                <article class="jogador" id="volante">
+                <article class="jogador no-elenco" id="volante">
                     <div class="camisa-jogador">
                         <span class="numero-jogador">5</span>
-                        <img class="foto-jogador" src="imagens/fred-busto-cartoon.png" alt="Fred em estilo cartoon">
+                        <img class="foto-jogador"
+                            src="imagens/fred-busto-cartoon.png"
+                            alt="Fred em estilo cartoon">
                     </div>
+
                     <div class="identificacao-jogador">
                         <h3>Volante</h3>
                         <p class="raridade-jogador">Comum</p>
                     </div>
+
                     <ul class="atributos-jogador">
                         <li>
                             <span>VEL</span>
@@ -344,19 +371,23 @@
                             <progress value="40" max="100" aria-label="Precisão">40</progress>
                         </li>
                     </ul>
+
                     <p class="estado-jogador">No elenco</p>
                 </article>
 
-                <article class="jogador" id="camisa-9">
+                <article class="jogador no-elenco" id="camisa-9">
                     <div class="camisa-jogador">
                         <span class="numero-jogador">9</span>
-                        <img class="foto-jogador" src="imagens/tardelli-busto-cartoon.png"
+                        <img class="foto-jogador"
+                            src="imagens/tardelli-busto-cartoon.png"
                             alt="Diego Tardelli em estilo cartoon">
                     </div>
+
                     <div class="identificacao-jogador">
                         <h3>Camisa 9</h3>
                         <p class="raridade-jogador">Raro</p>
                     </div>
+
                     <ul class="atributos-jogador">
                         <li>
                             <span>VEL</span>
@@ -375,19 +406,23 @@
                             <progress value="70" max="100" aria-label="Precisão">70</progress>
                         </li>
                     </ul>
+
                     <p class="estado-jogador">No elenco</p>
                 </article>
 
-                <article class="jogador" id="ponta">
+                <article class="jogador disponivel" id="ponta">
                     <div class="camisa-jogador">
                         <span class="numero-jogador">11</span>
-                        <img class="foto-jogador" src="imagens/bernard-busto-cartoon.png"
+                        <img class="foto-jogador"
+                            src="imagens/bernard-busto-cartoon.png"
                             alt="Bernard em estilo cartoon">
                     </div>
+
                     <div class="identificacao-jogador">
                         <h3>Ponta</h3>
                         <p class="raridade-jogador">Raro</p>
                     </div>
+
                     <ul class="atributos-jogador">
                         <li>
                             <span>VEL</span>
@@ -406,20 +441,24 @@
                             <progress value="50" max="100" aria-label="Precisão">50</progress>
                         </li>
                     </ul>
+
                     <p>Custo: <span class="custo-jogador">1800</span> bolas</p>
                     <button class="contratar-jogador" type="button">Contratar</button>
                 </article>
 
-                <article class="jogador" id="lateral">
+                <article class="jogador bloqueado" id="lateral">
                     <div class="camisa-jogador">
                         <span class="numero-jogador">2</span>
-                        <img class="foto-jogador" src="imagens/arana-busto-cartoon.png"
+                        <img class="foto-jogador"
+                            src="imagens/arana-busto-cartoon.png"
                             alt="Guilherme Arana em estilo cartoon">
                     </div>
+
                     <div class="identificacao-jogador">
                         <h3>Lateral</h3>
                         <p class="raridade-jogador">Épico</p>
                     </div>
+
                     <ul class="atributos-jogador">
                         <li>
                             <span>VEL</span>
@@ -438,6 +477,7 @@
                             <progress value="60" max="100" aria-label="Precisão">60</progress>
                         </li>
                     </ul>
+
                     <p>Custo: <span class="custo-jogador">1900</span> bolas</p>
                     <p>Requer: Estádio grande</p>
                     <button class="contratar-jogador" type="button" disabled>
@@ -445,15 +485,19 @@
                     </button>
                 </article>
 
-                <article class="jogador" id="zagueiro-artilheiro">
+                <article class="jogador bloqueado" id="zagueiro-artilheiro">
                     <div class="camisa-jogador">
                         <span class="numero-jogador">4</span>
-                        <img class="foto-jogador" src="imagens/rever-busto-cartoon.png" alt="Réver em estilo cartoon">
+                        <img class="foto-jogador"
+                            src="imagens/rever-busto-cartoon.png"
+                            alt="Réver em estilo cartoon">
                     </div>
+
                     <div class="identificacao-jogador">
                         <h3>Zagueiro artilheiro</h3>
                         <p class="raridade-jogador">Épico</p>
                     </div>
+
                     <ul class="atributos-jogador">
                         <li>
                             <span>VEL</span>
@@ -472,6 +516,7 @@
                             <progress value="80" max="100" aria-label="Precisão">80</progress>
                         </li>
                     </ul>
+
                     <p>Custo: <span class="custo-jogador">2000</span> bolas</p>
                     <p>Requer: 50 gols de cabeça</p>
                     <button class="contratar-jogador" type="button" disabled>
@@ -479,16 +524,19 @@
                     </button>
                 </article>
 
-                <article class="jogador" id="craque">
+                <article class="jogador bloqueado" id="craque">
                     <div class="camisa-jogador">
                         <span class="numero-jogador">10</span>
-                        <img class="foto-jogador" src="imagens/ronaldinho-busto-cartoon.png"
+                        <img class="foto-jogador"
+                            src="imagens/ronaldinho-busto-cartoon.png"
                             alt="Ronaldinho Gaúcho em estilo cartoon">
                     </div>
+
                     <div class="identificacao-jogador">
                         <h3>Craque</h3>
                         <p class="raridade-jogador">Lendário</p>
                     </div>
+
                     <ul class="atributos-jogador">
                         <li>
                             <span>VEL</span>
@@ -507,6 +555,7 @@
                             <progress value="90" max="100" aria-label="Precisão">90</progress>
                         </li>
                     </ul>
+
                     <p>Custo: <span class="custo-jogador">2100</span> bolas</p>
                     <p>Requer: Casa cheia</p>
                     <button class="contratar-jogador" type="button" disabled>
