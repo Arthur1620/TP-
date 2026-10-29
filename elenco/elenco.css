@@ -116,3 +116,37 @@ body {
   position: relative;
   overflow: hidden;
 }
+
+.palco-nv1 {
+  background: #2F7D3B;
+}
+
+.palco-nv25 {
+  background: repeating-linear-gradient(90deg, #2F7D3B 0 30px, #36894A 30px 60px);
+}
+
+.palco-nv100 {
+  background: #1E3A24;
+}
+
+.aura-borda {
+  position: absolute;
+  left: 50%;
+  top: 18px;
+  width: 200px;
+  height: 200px;
+  margin-left: -100px;
+  border-radius: 50%;
+  border: 3px dashed rgba(245, 197, 66, .6);
+}
+
+.aura-brilho {
+  position: absolute;
+  left: 50%;
+  top: 38px;
+  width: 160px;
+  height: 160px;
+  margin-left: -80px;
+  border-radius: 50%;
+  background: rgba(245, 197, 66, .12);
+}
