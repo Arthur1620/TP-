@@ -14,7 +14,7 @@ header {
 }
 
 main {
-    max-width: 800px;
+    max-width: 1200px;
     margin: 32px auto;
     padding: 0 16px;
 }
@@ -155,4 +155,25 @@ h2 {
     color: #f4c542;
     font-family: Impact, "Arial Narrow", sans-serif;
     font-size: 24px;
+}
+
+.categorias-upgrades {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 12px;
+}
+
+.categoria {
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+    border-radius: 0;
+    min-width: 0;
+}
+
+#melhorias {
+    background-color: transparent;
+    padding: 0;
+    margin-bottom: 24px;
+    border-radius: 0;
 }
