@@ -70,3 +70,8 @@ integrada ao jogo principal.
 - Cards bloqueados usam botões desativados, e cards já comprados não possuem botão de compra.
 - Texto de Bandeiras e faixas ajustado para +10%, conforme o protótipo; confirmar o efeito na integração.
 - Capacidades dos estádios e indicadores de festa são apenas informativos nesta etapa.
+- Cards de contratações estilizados com camisas listradas, barras de atributos e rodapés alinhados.
+- Personagens substituídos por imagens cartoon de meio corpo: Fred, Diego Tardelli, Bernard, Guilherme Arana, Réver e Ronaldinho Gaúcho.
+- Imagens armazenadas em diretoria/imagens/.
+- Números das camisas mantidos conforme os cards do protótipo; não representam necessariamente os números reais dos atletas.
+- Preços, atributos, elenco inicial e requisitos continuam provisórios para integração.

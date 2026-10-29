@@ -311,21 +311,38 @@
         </section>
 
         <section id="contratacoes">
-            <h2>Contratações</h2>
-            <p>Cada jogador novo entra em campo e passa a participar da jogada automática.</p>
+            <div class="cabecalho-contratacoes">
+                <h2>Contratações</h2>
+                <p>Cada jogador novo entra em campo e passa a participar da jogada automática.</p>
+            </div>
 
             <div class="lista-contratacoes">
                 <article class="jogador" id="volante">
                     <div class="camisa-jogador">
                         <span class="numero-jogador">5</span>
+                        <img class="foto-jogador" src="imagens/fred-busto-cartoon.png" alt="Fred em estilo cartoon">
                     </div>
-                    <h3>Volante</h3>
-                    <p>Raridade: Comum</p>
+                    <div class="identificacao-jogador">
+                        <h3>Volante</h3>
+                        <p class="raridade-jogador">Comum</p>
+                    </div>
                     <ul class="atributos-jogador">
-                        <li>Velocidade: <span class="atributo-velocidade">50</span></li>
-                        <li>Passe: <span class="atributo-passe">60</span></li>
-                        <li>Finalização: <span class="atributo-finalizacao">30</span></li>
-                        <li>Precisão: <span class="atributo-precisao">40</span></li>
+                        <li>
+                            <span>VEL</span>
+                            <progress value="50" max="100" aria-label="Velocidade">50</progress>
+                        </li>
+                        <li>
+                            <span>PAS</span>
+                            <progress value="60" max="100" aria-label="Passe">60</progress>
+                        </li>
+                        <li>
+                            <span>FIN</span>
+                            <progress value="30" max="100" aria-label="Finalização">30</progress>
+                        </li>
+                        <li>
+                            <span>PRE</span>
+                            <progress value="40" max="100" aria-label="Precisão">40</progress>
+                        </li>
                     </ul>
                     <p class="estado-jogador">No elenco</p>
                 </article>
@@ -333,14 +350,30 @@
                 <article class="jogador" id="camisa-9">
                     <div class="camisa-jogador">
                         <span class="numero-jogador">9</span>
+                        <img class="foto-jogador" src="imagens/tardelli-busto-cartoon.png"
+                            alt="Diego Tardelli em estilo cartoon">
                     </div>
-                    <h3>Camisa 9</h3>
-                    <p>Raridade: Raro</p>
+                    <div class="identificacao-jogador">
+                        <h3>Camisa 9</h3>
+                        <p class="raridade-jogador">Raro</p>
+                    </div>
                     <ul class="atributos-jogador">
-                        <li>Velocidade: <span class="atributo-velocidade">60</span></li>
-                        <li>Passe: <span class="atributo-passe">40</span></li>
-                        <li>Finalização: <span class="atributo-finalizacao">80</span></li>
-                        <li>Precisão: <span class="atributo-precisao">70</span></li>
+                        <li>
+                            <span>VEL</span>
+                            <progress value="60" max="100" aria-label="Velocidade">60</progress>
+                        </li>
+                        <li>
+                            <span>PAS</span>
+                            <progress value="40" max="100" aria-label="Passe">40</progress>
+                        </li>
+                        <li>
+                            <span>FIN</span>
+                            <progress value="80" max="100" aria-label="Finalização">80</progress>
+                        </li>
+                        <li>
+                            <span>PRE</span>
+                            <progress value="70" max="100" aria-label="Precisão">70</progress>
+                        </li>
                     </ul>
                     <p class="estado-jogador">No elenco</p>
                 </article>
@@ -348,14 +381,30 @@
                 <article class="jogador" id="ponta">
                     <div class="camisa-jogador">
                         <span class="numero-jogador">11</span>
+                        <img class="foto-jogador" src="imagens/bernard-busto-cartoon.png"
+                            alt="Bernard em estilo cartoon">
                     </div>
-                    <h3>Ponta</h3>
-                    <p>Raridade: Raro</p>
+                    <div class="identificacao-jogador">
+                        <h3>Ponta</h3>
+                        <p class="raridade-jogador">Raro</p>
+                    </div>
                     <ul class="atributos-jogador">
-                        <li>Velocidade: <span class="atributo-velocidade">80</span></li>
-                        <li>Passe: <span class="atributo-passe">60</span></li>
-                        <li>Finalização: <span class="atributo-finalizacao">60</span></li>
-                        <li>Precisão: <span class="atributo-precisao">50</span></li>
+                        <li>
+                            <span>VEL</span>
+                            <progress value="80" max="100" aria-label="Velocidade">80</progress>
+                        </li>
+                        <li>
+                            <span>PAS</span>
+                            <progress value="60" max="100" aria-label="Passe">60</progress>
+                        </li>
+                        <li>
+                            <span>FIN</span>
+                            <progress value="60" max="100" aria-label="Finalização">60</progress>
+                        </li>
+                        <li>
+                            <span>PRE</span>
+                            <progress value="50" max="100" aria-label="Precisão">50</progress>
+                        </li>
                     </ul>
                     <p>Custo: <span class="custo-jogador">1800</span> bolas</p>
                     <button class="contratar-jogador" type="button">Contratar</button>
@@ -364,14 +413,30 @@
                 <article class="jogador" id="lateral">
                     <div class="camisa-jogador">
                         <span class="numero-jogador">2</span>
+                        <img class="foto-jogador" src="imagens/arana-busto-cartoon.png"
+                            alt="Guilherme Arana em estilo cartoon">
                     </div>
-                    <h3>Lateral</h3>
-                    <p>Raridade: Épico</p>
+                    <div class="identificacao-jogador">
+                        <h3>Lateral</h3>
+                        <p class="raridade-jogador">Épico</p>
+                    </div>
                     <ul class="atributos-jogador">
-                        <li>Velocidade: <span class="atributo-velocidade">70</span></li>
-                        <li>Passe: <span class="atributo-passe">80</span></li>
-                        <li>Finalização: <span class="atributo-finalizacao">40</span></li>
-                        <li>Precisão: <span class="atributo-precisao">60</span></li>
+                        <li>
+                            <span>VEL</span>
+                            <progress value="70" max="100" aria-label="Velocidade">70</progress>
+                        </li>
+                        <li>
+                            <span>PAS</span>
+                            <progress value="80" max="100" aria-label="Passe">80</progress>
+                        </li>
+                        <li>
+                            <span>FIN</span>
+                            <progress value="40" max="100" aria-label="Finalização">40</progress>
+                        </li>
+                        <li>
+                            <span>PRE</span>
+                            <progress value="60" max="100" aria-label="Precisão">60</progress>
+                        </li>
                     </ul>
                     <p>Custo: <span class="custo-jogador">1900</span> bolas</p>
                     <p>Requer: Estádio grande</p>
@@ -383,14 +448,29 @@
                 <article class="jogador" id="zagueiro-artilheiro">
                     <div class="camisa-jogador">
                         <span class="numero-jogador">4</span>
+                        <img class="foto-jogador" src="imagens/rever-busto-cartoon.png" alt="Réver em estilo cartoon">
                     </div>
-                    <h3>Zagueiro artilheiro</h3>
-                    <p>Raridade: Épico</p>
+                    <div class="identificacao-jogador">
+                        <h3>Zagueiro artilheiro</h3>
+                        <p class="raridade-jogador">Épico</p>
+                    </div>
                     <ul class="atributos-jogador">
-                        <li>Velocidade: <span class="atributo-velocidade">40</span></li>
-                        <li>Passe: <span class="atributo-passe">50</span></li>
-                        <li>Finalização: <span class="atributo-finalizacao">70</span></li>
-                        <li>Precisão: <span class="atributo-precisao">80</span></li>
+                        <li>
+                            <span>VEL</span>
+                            <progress value="40" max="100" aria-label="Velocidade">40</progress>
+                        </li>
+                        <li>
+                            <span>PAS</span>
+                            <progress value="50" max="100" aria-label="Passe">50</progress>
+                        </li>
+                        <li>
+                            <span>FIN</span>
+                            <progress value="70" max="100" aria-label="Finalização">70</progress>
+                        </li>
+                        <li>
+                            <span>PRE</span>
+                            <progress value="80" max="100" aria-label="Precisão">80</progress>
+                        </li>
                     </ul>
                     <p>Custo: <span class="custo-jogador">2000</span> bolas</p>
                     <p>Requer: 50 gols de cabeça</p>
@@ -402,14 +482,30 @@
                 <article class="jogador" id="craque">
                     <div class="camisa-jogador">
                         <span class="numero-jogador">10</span>
+                        <img class="foto-jogador" src="imagens/ronaldinho-busto-cartoon.png"
+                            alt="Ronaldinho Gaúcho em estilo cartoon">
                     </div>
-                    <h3>Craque</h3>
-                    <p>Raridade: Lendário</p>
+                    <div class="identificacao-jogador">
+                        <h3>Craque</h3>
+                        <p class="raridade-jogador">Lendário</p>
+                    </div>
                     <ul class="atributos-jogador">
-                        <li>Velocidade: <span class="atributo-velocidade">90</span></li>
-                        <li>Passe: <span class="atributo-passe">90</span></li>
-                        <li>Finalização: <span class="atributo-finalizacao">90</span></li>
-                        <li>Precisão: <span class="atributo-precisao">90</span></li>
+                        <li>
+                            <span>VEL</span>
+                            <progress value="90" max="100" aria-label="Velocidade">90</progress>
+                        </li>
+                        <li>
+                            <span>PAS</span>
+                            <progress value="90" max="100" aria-label="Passe">90</progress>
+                        </li>
+                        <li>
+                            <span>FIN</span>
+                            <progress value="90" max="100" aria-label="Finalização">90</progress>
+                        </li>
+                        <li>
+                            <span>PRE</span>
+                            <progress value="90" max="100" aria-label="Precisão">90</progress>
+                        </li>
                     </ul>
                     <p>Custo: <span class="custo-jogador">2100</span> bolas</p>
                     <p>Requer: Casa cheia</p>
