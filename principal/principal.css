@@ -1,21 +1,419 @@
-header{
-    width: 100%;
-    height: 70px;
-    background-color: black;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.logomarca{
-    
-    position: relative;
-    width: 50px;
-    height: 40px;
-    background-color: green;
+body {
+    background: #08090a;
+    color: white;
+    font-family: Arial, sans-serif;
+    padding: 10px;
+}
+
+.game {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.topbar {
+    background: #151617;
+    border: 1px solid #333;
+    border-bottom: 3px dashed white;
+    border-radius: 10px;
+    padding: 12px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    gap: 12px;
 }
 
-.moedas{
+.logo {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.logo span {
+    color: #aaa;
+}
+
+.moedas {
+    color: #e9bd35;
+    font-weight: bold;
+}
+
+small {
+    display: block;
+    color: #aaa;
+    font-size: 10px;
+}
+
+.info {
+    font-size: 10px;
+    color: #aaa;
+}
+
+.info strong {
+    display: block;
+    color: white;
+    font-size: 15px;
+}
+
+.combo {
+    background: #222;
+    padding: 8px;
+    border-radius: 7px;
+    font-size: 11px;
+}
+
+.buttons {
+    cursor: pointer;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 155px 1fr 190px;
+    gap: 10px;
+    margin-top: 10px;
+    min-height: 530px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.panel {
+    background: #171819;
+    border: 1px solid #333;
+    border-radius: 9px;
+    padding: 10px;
+}
+
+.treinador {
+    position: relative;
+}
+
+.treinador h2 {
+    color: #3999e9;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.nivel {
+    position: absolute;
+    right: 8px;
+    top: 8px;
+    background: white;
+    color: black;
+    padding: 4px;
+    border-radius: 4px;
+    font-size: 9px;
+}
+
+.treinador p {
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+    margin-top: 7px;
+}
+
+.grito {
+    font-size: 11px;
+}
+
+.grito small {
+    margin-top: 5px;
+}
+
+.bola {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    color: #e9bd35;
+    font-size: 20px;
+}
+
+.bola div {
+    flex: 1;
+}
+
+.bola b {
+    font-size: 10px;
+}
+
+.bola strong {
+    font-size: 10px;
+}
+
+.elenco h3 {
+    font-size: 11px;
+    margin-bottom: 10px;
+}
+
+.elenco p {
+    margin: 10px 0;
+    font-size: 11px;
+    color: #ccc;
+}
+
+.elenco small {
+    margin-left: 20px;
+    font-size: 9px;
+}
+
+.campo {
+    border: 1px solid #333;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 530px;
+}
+
+.torcida {
+    height: 115px;
+    background: #222;
+    border-bottom: 2px solid #aaa;
+    overflow: hidden;
+}
+
+.torcida img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.gramado {
+    flex: 1;
+    min-height: 400px;
+    background: #28552b;
+    position: relative;
+    margin: 8px;
+    border: 1px solid #aaa;
+    overflow: hidden;
+}
+
+.linha-meio {
+    position: absolute;
+    height: 100%;
+    left: 50%;
+    border-left: 1px solid #aaa;
+}
+
+.circulo {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    border: 1px solid #aaa;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.area-esquerda,
+.area-direita {
+    position: absolute;
+    top: 25%;
+    height: 50%;
+    width: 14%;
+    border: 1px solid #aaa;
+}
+
+.area-esquerda {
+    left: 0;
+}
+
+.area-direita {
+    right: 0;
+}
+
+.gol {
+    position: absolute;
+    right: 0;
+    top: 40%;
+    width: 5%;
+    height: 20%;
+    border: 2px solid white;
+}
+
+.tecnico {
+    position: absolute;
+    bottom: 5px;
+    left: 5%;
+    width: 100px;
+    height: 130px;
+}
+
+.tecnico img,
+.jogador img,
+.goleiro img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.jogador {
+    position: absolute;
+    width: 45px;
+    height: 65px;
+}
+
+.jogador1 {
+    top: 48%;
+    left: 40%;
+}
+
+.jogador2 {
+    top: 25%;
+    right: 20%;
+}
+
+.goleiro {
+    position: absolute;
+    right: 3%;
+    top: 45%;
     width: 40px;
-    height: 40px;
-    background-color: aquamarine;
+    height: 65px;
+}
+
+.right {
+    position: relative;
+}
+
+.right h2 {
+    font-size: 17px;
+    margin-bottom: 12px;
+}
+
+.right h2 span {
+    color: #e9bd35;
+    font-size: 10px;
+    float: right;
+}
+
+.abas {
+    display: flex;
+    gap: 3px;
+    margin-bottom: 15px;
+}
+
+.abas button {
+    flex: 1;
+    padding: 8px 2px;
+    background: #292929;
+    color: white;
+    border: 1px solid #444;
+    border-radius: 5px;
+    font-size: 7px;
+    cursor: pointer;
+}
+
+.abas button:first-child {
+    background: white;
+    color: black;
+}
+
+.right h3 {
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.upgrade {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    background: #222;
+    border: 1px solid #444;
+    border-radius: 8px;
+    padding: 8px;
+    margin-top: 8px;
+}
+
+.upgrade div {
+    font-size: 20px;
+}
+
+.upgrade section {
+    flex: 1;
+}
+
+.upgrade b {
+    font-size: 10px;
+}
+
+.upgrade small {
+    margin-top: 4px;
+    font-size: 8px;
+}
+
+.upgrade strong {
+    font-size: 9px;
+    color: #e9bd35;
+}
+
+footer {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    background: #222;
+    border: 1px solid #444;
+    border-radius: 7px;
+    padding: 8px;
+}
+
+footer b {
+    float: right;
+    font-size: 10px;
+}
+
+.progresso {
+    height: 5px;
+    background: #555;
+    margin-top: 8px;
+    border-radius: 5px;
+}
+
+@media (max-width: 800px) {
+    .container {
+        grid-template-columns: 140px 1fr;
+    }
+
+    .right {
+        grid-column: 1 / -1;
+        min-height: 280px;
+    }
+
+    footer {
+        position: static;
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 550px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .topbar {
+        flex-wrap: wrap;
+    }
+
+    .campo {
+        min-height: 400px;
+    }
+
+    .left {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .elenco {
+        grid-column: 1 / -1;
+    }
 }

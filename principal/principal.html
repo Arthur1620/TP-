@@ -1,38 +1,160 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <link rel="stylesheet" href="principal.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Galo Clicker</title>
+    <link rel="stylesheet" href="principal.css">
 </head>
 <body>
-    <header>
-        <div class="logomarca">
+
+<main class="game">
+
+    <header class="topbar">
+        <div class="logo">
+            ⚽ GALO <span>CLICKER</span>
         </div>
-        <div class="moedas">
-        </div>
-        <div class="gols">
-        </div>
-        <div class="multiplicador">
-        </div>
-        <div class="audio"></div>
-        <div class="troféus"></div>
-        <div class="menu"></div>
+
+        <div class="moedas">🟡 1.112 <small>MOEDAS</small></div>
+        <div class="info">⚽ GOLS <strong>38</strong></div>
+        <div class="info">EM CAMPO <strong>0 BOTAS</strong></div>
+        <div class="info">MULTIPLICADOR <strong>×1,0</strong></div>
+
+        <div class="combo">COMBO <small>gols seguidos</small></div>
+
+        <div class="buttons">🔊 🏆 ☰</div>
     </header>
-    <div class="info">
+
+    <div class="container">
+
+        <aside class="left">
+
+            <section class="panel treinador">
+                <small>TREINADOR</small>
+                <span class="nivel">NÍVEL 1</span>
+                <h2>BARBA</h2>
+
+                <p>Bolas por clique <b>1</b></p>
+                <p>Bolas automáticas <b>0/s</b></p>
+                <p>Moedas por gol <b>5</b></p>
+            </section>
+
+            <section class="panel grito">
+                🔊 <b>GRITO DO BARBA</b>
+                <small>Pronto - 8s de bolas em dobro</small>
+            </section>
+
+            <section class="panel bola">
+                ⚽ <div>
+                    <b>BOLA DE OURO</b>
+                    <small>Gol garantido e moedas +5</small>
+                </div>
+                <strong>4%</strong>
+            </section>
+
+            <section class="panel elenco">
+                <h3>ELENCO</h3>
+
+                <p>15 | <b>Volante</b><small>Em campo - faz o passe</small></p>
+                <p>9 | <b>Camisa 9</b><small>Em campo - finaliza</small></p>
+                <p>11 | <b>Ponta</b><small>Contrate na aba Elenco</small></p>
+                <p>2 | <b>Lateral</b><small>Libera com o Estádio grande</small></p>
+                <p>10 | <b>Craque</b><small>Libera com a Casa cheia</small></p>
+            </section>
+
+        </aside>
+
+        <section class="campo">
+
+            <div class="torcida">
+                <!-- COLOQUE A IMAGEM DA TORCIDA AQUI -->
+                <img src="imagens/torcida.png" alt="Torcida">
+            </div>
+
+            <div class="gramado">
+
+                <div class="linha-meio"></div>
+                <div class="circulo"></div>
+                <div class="area-esquerda"></div>
+                <div class="area-direita"></div>
+                <div class="gol"></div>
+
+                <div class="tecnico">
+                    <!-- COLOQUE A IMAGEM DO TREINADOR AQUI -->
+                    <img src="imagens/treinador.png" alt="Treinador">
+                </div>
+
+                <div class="jogador jogador1">
+                    <!-- COLOQUE A IMAGEM DO JOGADOR AQUI -->
+                    <img src="imagens/jogador1.png" alt="Jogador">
+                </div>
+
+                <div class="jogador jogador2">
+                    <!-- COLOQUE A IMAGEM DO JOGADOR AQUI -->
+                    <img src="imagens/jogador2.png" alt="Jogador">
+                </div>
+
+                <div class="goleiro">
+                    <!-- COLOQUE A IMAGEM DO GOLEIRO AQUI -->
+                    <img src="imagens/goleiro.png" alt="Goleiro">
+                </div>
+
+            </div>
+        </section>
+
+        <aside class="right panel">
+
+            <h2>UPGRADES <span>🟡 1.112</span></h2>
+
+            <nav class="abas">
+                <button>TÉCNICO</button>
+                <button>ELENCO</button>
+                <button>GRAMADO</button>
+                <button>ESTÁDIO</button>
+                <button>TORCIDA</button>
+            </nav>
+
+            <h3>Treinador</h3>
+            <small>Evolua o Barba: mais bolas e mais bolas de ouro</small>
+
+            <div class="upgrade">
+                <div>♟</div>
+                <section>
+                    <b>Prancheta tática</b>
+                    <small>+1 bola por clique</small>
+                </section>
+                <strong>🟡 15</strong>
+            </div>
+
+            <div class="upgrade">
+                <div>♟</div>
+                <section>
+                    <b>Voz de comando</b>
+                    <small>+2% de chance de bola de ouro</small>
+                </section>
+                <strong>🟡 20</strong>
+            </div>
+
+            <div class="upgrade">
+                <div>♟</div>
+                <section>
+                    <b>Leitura de jogo</b>
+                    <small>+10% de moedas por gol</small>
+                </section>
+                <strong>🟡 350</strong>
+            </div>
+
+            <footer>
+                <small>PRÓXIMO MARCO</small>
+                <b>Estádio básico</b>
+                <div class="progresso"></div>
+            </footer>
+
+        </aside>
 
     </div>
-    
-    <div class="principal">
+</main>
 
-    </div>
-
-    <div class="upgrades">
-
-    </div>
-    <footer>
-
-    </footer>
 </body>
 </html>
