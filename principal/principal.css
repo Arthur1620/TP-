@@ -13,7 +13,7 @@ body {
 }
 
 .game {
-    max-width: 1200px;
+    width: 100%;
     margin: auto;
 }
 
@@ -22,12 +22,14 @@ body {
     border: 1px solid #333;
     border-bottom: 3px dashed white;
     border-radius: 10px;
-    padding: 12px;
+    padding: 20px;
+    min-height: 75px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 12px;
 }
+
 
 .logo {
     font-size: 18px;
@@ -72,10 +74,10 @@ small {
 }
 
 .container {
-    display: grid;
-    grid-template-columns: 155px 1fr 190px;
+    display: flex;
     gap: 10px;
     margin-top: 10px;
+    width: 100%;
     min-height: 530px;
 }
 
@@ -83,8 +85,8 @@ small {
     display: flex;
     flex-direction: column;
     gap: 8px;
+    width: 230px;
 }
-
 .panel {
     background: #171819;
     border: 1px solid #333;
@@ -171,6 +173,7 @@ small {
     display: flex;
     flex-direction: column;
     min-height: 530px;
+    flex: 1;
 }
 
 .torcida {
@@ -244,8 +247,19 @@ small {
     position: absolute;
     bottom: 5px;
     left: 5%;
-    width: 100px;
-    height: 130px;
+    width: 180px;
+    height: 220px;
+}
+
+.tecnico,
+.jogador,
+.goleiro {
+    background: #6d6c6c;
+    border: 2px dashed #aaaaaa;
+    border-radius: 8px;
+    padding: 10px;
+    cursor: pointer;
+    opacity: 60%;
 }
 
 .tecnico img,
@@ -258,8 +272,8 @@ small {
 
 .jogador {
     position: absolute;
-    width: 45px;
-    height: 65px;
+    width: 75px;
+    height: 95px;
 }
 
 .jogador1 {
@@ -268,20 +282,21 @@ small {
 }
 
 .jogador2 {
-    top: 25%;
-    right: 20%;
+    top: 10%;
+    right: 27%;
 }
 
 .goleiro {
     position: absolute;
     right: 3%;
-    top: 45%;
-    width: 40px;
-    height: 65px;
+    top: 38%;
+    width: 75px;
+    height: 95px;
 }
 
 .right {
     position: relative;
+    width: 260px;
 }
 
 .right h2 {
@@ -378,42 +393,13 @@ footer b {
     border-radius: 5px;
 }
 
-@media (max-width: 800px) {
-    .container {
-        grid-template-columns: 140px 1fr;
-    }
-
-    .right {
-        grid-column: 1 / -1;
-        min-height: 280px;
-    }
-
-    footer {
-        position: static;
-        margin-top: 15px;
-    }
-}
-
-@media (max-width: 550px) {
-    .container {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .topbar {
-        flex-wrap: wrap;
-    }
-
-    .campo {
-        min-height: 400px;
-    }
-
-    .left {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-
-    .elenco {
-        grid-column: 1 / -1;
-    }
+.bola-chute {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    background: white;
+    border: 2px solid black;
+    border-radius: 50%;
+    z-index: 10;
+    transition: left 0.6s linear, top 0.6s linear;
 }
