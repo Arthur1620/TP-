@@ -555,3 +555,60 @@ h2 {
     background-color: #292929;
     color: #777777;
 }
+
+@media (max-width: 1000px) {
+    header {
+        flex-wrap: wrap;
+    }
+
+    .categorias-upgrades {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .lista-contratacoes {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    header {
+        margin-top: 20px;
+        padding: 0 16px;
+    }
+
+    .titulo-diretoria {
+        width: 100%;
+    }
+
+    .titulo-diretoria h1 {
+        font-size: 30px;
+    }
+
+    .controles-diretoria {
+        flex-wrap: wrap;
+        min-width: 0;
+    }
+
+    .legenda-estados {
+        flex-wrap: wrap;
+    }
+
+    main {
+        margin-top: 24px;
+    }
+
+    .categorias-upgrades,
+    .lista-contratacoes {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .cabecalho-contratacoes {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+    }
+
+    .cabecalho-contratacoes p {
+        text-align: left;
+    }
+}
