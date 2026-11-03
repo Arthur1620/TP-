@@ -196,7 +196,6 @@ body {
   color: #A3A3A3;
 }
 
-/* Telas menores */
 @media (max-width: 1100px) {
   .elenco {
     flex: 1 1 100%;
